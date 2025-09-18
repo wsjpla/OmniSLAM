@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/opt/ros/noetic/include/**",
+                "/usr/include/**",
+                "/usr/local/include",
+                "/root/swarm_ws/src/D2SLAM/**",
+                "/root/swarm_ws/src/D2SLAM/camera_models/include/**",
+                "/root/swarm_ws/src/D2SLAM/vision_opencv/cv_bridge/include/**",
+                "/root/swarm_ws/src/D2SLAM/d2common/include/**",
+                "/root/swarm_ws/src/D2SLAM/d2frontend/include/**",
+                "/root/swarm_ws/src/vision_opencv/image_geometry/include/**",
+                "/root/swarm_ws/src/swarm_msgs/swarm_msgs/include/**",
+                "/root/swarm_ws/src/swarm_msgs/swarmcomm_msgs/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}
